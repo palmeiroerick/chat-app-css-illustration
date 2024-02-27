@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     screens: {
       sm: "375px",
-      lg: "1440px",
+      lg: "960px",
     },
     colors: {
       paleViolet: "hsl(276, 100%, 81%)",

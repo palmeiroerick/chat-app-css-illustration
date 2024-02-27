@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="relative overflow-hidden">
-      <div className="bg-gradient-top absolute h-[60vh] w-[375px] -translate-x-1/2 rounded-b-full" />
-      <main className="relative z-10 flex flex-col items-center justify-center gap-14 py-14">
+    <div className="relative h-full w-full overflow-hidden">
+      <div className="bg-gradient-top absolute h-[60vh] w-[375px] -translate-x-1/2 rounded-b-full lg:h-[85vh] lg:w-[520px] lg:-translate-x-[20%]" />
+      <main className="relative z-10 flex h-full flex-col items-center justify-center gap-14 py-14 lg:ml-28 lg:flex-row lg:gap-24">
         <section className="w-64 overflow-hidden rounded-3xl border-8 border-white bg-lightGrayishViolet shadow-2xl">
           <div className="bg-gradient-right rounded-b-md">
             <div className="m-auto h-5 w-32 rounded-b-2xl bg-white" />
@@ -103,11 +103,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="flex flex-col gap-3 px-8">
-          <h1 className="text-center text-[40px] font-medium">
+        <section className="flex flex-col gap-3 px-8 lg:w-[500px]">
+          <h1 className="text-center text-[40px] font-medium lg:text-start">
             Simple booking
           </h1>
-          <p className="text-center leading-7 text-darkGrayishViolet">
+          <p className="text-center leading-7 text-darkGrayishViolet lg:text-start">
             Stay in touch with our dog walkers through the chat interface. This
             makes it easy to discuss arrangements and make bookings. Once the
             walk has been completed you can rate your walker and book again all
@@ -115,7 +115,7 @@ export default function Home() {
           </p>
         </section>
       </main>
-      <div className="bg- absolute bottom-0 right-0 h-[60vh] w-[375px] translate-x-1/2 rounded-t-full bg-paleViolet bg-opacity-[0.075]" />
+      <div className="bg- absolute bottom-0 right-0 h-[60vh] w-[375px] translate-x-1/2 rounded-t-full bg-paleViolet bg-opacity-[0.075] lg:h-[80vh] lg:w-[440px] lg:translate-x-1/4" />
     </div>
   );
 }
