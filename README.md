@@ -18,12 +18,13 @@ Users should be able to:
 
 ## Screenshot
 
-![]()
+![Screen Shot 2024-02-27 at 17 53 48](https://github.com/palmeiroerick/chat-app-css-illustration/assets/148393698/89609132-86f2-4b19-bf14-052e77f35c84)
+
 
 ## Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/palmeiroerick/chat-app-css-illustration/)
+- [Live Site](https://chat-app-css-illustration-orcin.vercel.app/)
 
 ## Built with
 
